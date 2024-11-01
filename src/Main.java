@@ -11,7 +11,7 @@ public class Main {
         int Condicionado= 0;
         int Suspenso = 0;
         while (contador != 7) {
-            System.out.println("Digite uma nota: ");
+            System.out.println("Diga uma nota: ");
             nota = sc.nextInt();
             if(nota>=0 && nota<=10) {
                 if (nota >= 5 && nota <= 10) {
@@ -25,7 +25,7 @@ public class Main {
                     contador++;
                 }
             }else{
-                System.out.println("No estra dentro del rango de nota, revisa la nota y pon la correcta");
+                System.out.println("No entra dentro del rango de nota, revisa la nota y pon la correcta");
             }
         }
         System.out.println("Aprobados: "+Apro+", condicionados: "+Condicionado+", suspenso: "+Suspenso);
